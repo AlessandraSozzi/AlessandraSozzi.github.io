@@ -9,13 +9,15 @@
     <meta name="description" content="Personal Portfolio Website">
     <meta name="author" content="Alessandra Sozzi">
 
-    <title>Alessandra's Portfolio</title>
+    <title>Alessandra Sozzi</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap_flatly.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/1-col-portfolio.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,7 +31,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -39,19 +41,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Alessandra's Porfolio</a>
+                <a class="navbar-brand" href="index.html">Alessandra's Porfolio</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
+                        <a href="publications.html">Publications</a>
                     </li>
                 </ul>
             </div>
@@ -66,16 +65,15 @@
         <!-- Page Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Projects
-                    <small>Secondary Text</small>
-                </h1>
+                <h2 class="page-header">Projects</h2>
             </div>
+            <hr>
         </div>
         <!-- /.row -->
 
         <!-- Project One -->
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-5">
                 <a href="#">
                     <img class="img-responsive" src="./projects-img/img1.png" alt="Picture Loading">
                 </a>
@@ -85,7 +83,8 @@
                 <h4>Visualisition of a day of taxi trips to and from La Grande Airport in NYC</h4>
                 <p>From the <a href="http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml">TLC Trip Record data</a>, this visualisation shows a day of taxi trips to and from La Grande Airport.</p>
                 <p>Technologies: BigQuery, Python, Node.js, D3.js</p>
-                <a class="btn btn-primary" href="http://bl.ocks.org/AlessandraSozzi/raw/5a7af81397dc96f3556c/" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="http://bl.ocks.org/AlessandraSozzi/raw/5a7af81397dc96f3556c/" target="_blank">View Project 
+</a>
             </div>
         </div>
         <!-- /.row -->
@@ -94,7 +93,7 @@
 
         <!-- Project Two -->
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-5">
                 <a href="#">
                     <img class="img-responsive" src="./projects-img/img2.png" alt="Picture Loading">
                 </a>
@@ -104,16 +103,56 @@
                 <h4>A visualisation of relationships between teams</h4>
                 <p>The visualisation shows the relationships within the teams of the methodology division and among the other disions of the Office for National Statistics.</p>
                 <p>Technology: D3.js</p>
-                <a class="btn btn-primary" href="http://bl.ocks.org/AlessandraSozzi/raw/6b44ab81fb2692f8aa4a/" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="http://bl.ocks.org/AlessandraSozzi/raw/6b44ab81fb2692f8aa4a/" target="_blank">View Project 
+</a>
             </div>
         </div>
         <!-- /.row -->
 
         <hr>
 
+        
+
+        <hr>
+
+        <!-- Project Four -->
+        <div class="row">
+
+            <div class="col-md-5">
+                <a href="#" data-toggle="modal" data-target="#telecomeItalia">
+                    <img class="img-responsive" src="projects-img/img4.png" alt="Picture Loading">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Telecome Italia Big Data Challenge</h3>
+                <h4>Analysing aggregated mobile phone data</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#telecomeItalia">
+                View Project 
+
+                </button>
+
+                <div id="telecomeItalia" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Telecome Italia Big Data Challenge</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="project_data/DayCallDensity.gif" alt="Picture Loading">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
         <!-- Project Three -->
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-5">
                 <a href="#">
                     <img class="img-responsive" src="./projects-img/img3.png" alt="Picture Loading">
                 </a>
@@ -123,35 +162,16 @@
                 <h4>The rise of women in technology</h4>
                 <p>This is one of the visualisations I developed for the keynote of a tech conference in Italy. The visualisations were aimed at showing the increase of diversity within speakers and attendees, in terms of internationality and gender. As selected showcase I propose here the visualisation that shows the rising number of women attendees in the 3 edition of the conference, as well as the presence of 4 women speakers in the 2015 edition. To see the visualisation press on the two headers.</p>
                 <p>Technology: D3.js</p>
-                <a class="btn btn-primary" href="http://bl.ocks.org/AlessandraSozzi/raw/11e5c3c8c61c496e987d/" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="http://bl.ocks.org/AlessandraSozzi/raw/11e5c3c8c61c496e987d/" target="_blank">View Project 
+</a>
+
             </div>
         </div>
         <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Four -->
-        <div class="row">
-
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-responsive" src="./projects-img/img4.png" alt="Picture Loading">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Telecome Italia Big Data Challenge</h3>
-                <h4>Analysing aggregated mobile phone data</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-                <a class="btn btn-primary" href="#" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
 
         <!-- Project Five -->
         <!-- <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-5">
                 <a href="#">
                     <img class="img-responsive" src="http://placehold.it/700x300" alt="">
                 </a>
@@ -160,12 +180,12 @@
                 <h3>Project Five</h3>
                 <h4>Subheading</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, quo, minima, inventore voluptatum saepe quos nostrum provident ex quisquam hic odio repellendus atque porro distinctio quae id laboriosam facilis dolorum.</p>
-                <a class="btn btn-primary" href="#" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="#" target="_blank">View Project 
+</a>
             </div>
         </div> -->
         <!-- /.row -->
 
-        <hr>
 
         <!-- Pagination -->
         <!-- <div class="row text-center">
@@ -200,16 +220,19 @@
         <!-- <hr> -->
 
         <!-- Footer -->
+
+
+    </div>
+
         <footer>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 text-center">
                     <p>Copyright &copy; <a href="https://twitter.com/AlessandraSozz">Alessandra Sozzi</a></p>
                 </div>
             </div>
             <!-- /.row -->
         </footer>
-
-    </div>
+   
     <!-- /.container -->
 
     <!-- jQuery -->

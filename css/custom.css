@@ -7,12 +7,35 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background-color: #fff;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #777777;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	margin-top: 0px;
+    line-height: 1.4;
 }
 
 .img-responsive {
-	border: 1px solid black;
+    border: 1px solid #ECF0F1;
 }
 
+.btn{
+    padding: 5px 8px;
+}
+
+.col-centered{
+	float: none;
+	margin: 0 auto;
+}
+
+
+.grey {
+    color: #999;
+}
 
 footer {
     margin: 50px 0;
